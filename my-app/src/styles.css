@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+ 
+  
+}
+
+.company {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #FF1493;
+  
+  margin: 30px 40px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+}
+
+.company h2 {
+  flex: 1;
+  margin: 0;
+}
+
+.company p {
+  flex: 1;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.company button {
+ 
+  margin-left: 42px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f902ec;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* .company.expanded {
+  border: 1px solid #f902ec;
+} */
+
+.company.expanded div {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.company.expanded div p {
+  flex: 1;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.user-details {
+  margin:0 40px;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+.user-details span{
+  font-weight: bold;
+}
+table {
+  width: 100%;
+  margin-bottom: 10px;
+  width:60%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: lightgray;
+  font-weight: bold;
+  width: 33.3%;
+}
+
+.user-details {
+  margin-top: 10px;
+  padding: 10px;
+  /* border: 1px solid lightgray; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 30px;
+}
+
+
+
